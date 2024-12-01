@@ -41,6 +41,6 @@ const fruitSchema = new mongoose.Schema({
 const Fruit = mongoose.model('Fruit', fruitSchema)
 // share it with rest of app
 
-module.export = Fruit
+module.exports = Fruit
 
 // import i server.js
